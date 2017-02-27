@@ -1,4 +1,5 @@
 import React from 'react';
+import './../style/video_detail.css'
 
 const VideoDetail = ({video}) => {
 
@@ -15,8 +16,10 @@ const desc = video.snippet.description;
       <div className="embed-responsive embed-responsive-16by9">
         <iframe className="embed-responsive-item" src={url}></iframe>
       </div>
-      <div>{title}</div>
-      <div>{desc}</div>
+      <div className="detail">
+        <div className="video-detail-title">{title}</div>
+        <div>{desc}</div>
+      </div>
     </div>
 
   );
