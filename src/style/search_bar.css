@@ -1,6 +1,7 @@
 .search-bar{
+  text-align: center;
   padding: 10px;
-  padding-left: 15px;
+  margin: 20px;
 }
 
 .search-bar input{
